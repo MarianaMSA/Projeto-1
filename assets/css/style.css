@@ -64,7 +64,7 @@ section#humores div#miniTexto{
     width: 100%;
     margin: 3vw;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
        
 }
 
@@ -81,56 +81,17 @@ section#humores div#img img{
     /* transform: scaleX(-1); */
 }
 
-selection#humores div#tiposHumor button{
-    padding: 5vw;
-
-}
-
-/*-------------------------------*/
-
-
-section#infos div#txt{
-    padding: 5rem;
-    color: #fff;
-    text-align: center;
-}
-
-section#infos div#txt h2{
-    padding: 1rem;
-    font-size: 5rem;
-    font-weight: 400;
-}
-
-section#infos div#txt h3{
-    padding: 2rem;
-    font-size: 2rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-}
-
-section#infos div#txt button{
+section#humores div#tiposHumor button{
     padding: 1rem;
     font-size: 1.3rem;
     font-weight: 600;
-    background-color: #6c8e29;
-    border: 2px solid #6c8e29;
-    border-radius: 2rem;
+    background-color: white;
+    border: 2px solid #9b2221;
+    border-radius: 1.5rem;
     transition: all .5s ease-out;
     cursor: pointer;
+    color: #9b2226;
 }
 
-section#infos div#txt button:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px 1px #ffffff50;
-}
 
-section#infos div#img{
-    display: flex;
-    justify-content: center;
-}
 
-section#infos div#img img{
-    width: 60%;
-    border-radius: 3rem;
-    transform: scaleX(-1);
-}
